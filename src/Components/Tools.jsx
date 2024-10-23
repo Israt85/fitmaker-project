@@ -11,6 +11,7 @@ const Tools = () => {
         <div  className='max-w-7xl py-10 bg-gradient-to-r from-transparent via-[#D90A141F] to-transparent mx-auto h-auto'>
            <div className='flex justify-between mx-2'>
            <p className='text-white font-semibold text-4xl font-vazirmatin text-left mx-2'>Our Fitness <span className='text-red-500'>Tools</span></p>
+           <div>
            <div className='flex justify-center gap-4 items-center'>
            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="-0.5" y="0.5" width="35" height="35" rx="7.5" transform="matrix(-1 0 0 1 35 0)" stroke="white"/>
@@ -22,6 +23,23 @@ const Tools = () => {
 </svg>
 
 
+           </div>
+           <div className='flex justify-center items-center mt-1'>
+            {/* 1st svg */}
+            <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="20" height="14" rx="7" fill="#262626"/>
+</svg>
+
+            {/* 2nd svg */}
+            <svg width="28" height="14" viewBox="0 0 28 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="28" height="14" rx="7" fill="#D90A14"/>
+</svg>
+{/* 3rd svg */}
+<svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="20" height="14" rx="7" fill="#262626"/>
+</svg>
+
+           </div>
            </div>
            </div>
             <HeadingTitle subtitle={'Access a variety of tools to help you reach your fitness goals more effectively'}></HeadingTitle>

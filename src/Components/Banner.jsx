@@ -3,7 +3,7 @@ import banner from '../assets/Images/bannerImg.png'
 
 const Banner = () => {
     return (
-        <div className="hero bg-[#1D1D1D] max-7xl mx-auto h-auto lg:h-[662px]">
+        <div className="hero bg-[#1D1D1D] to-transparent max-7xl mx-auto h-auto lg:h-[662px]">
   <div className="hero-content flex-col mx-auto justify-center items-center lg:flex-row-reverse">
    
    <div className=' border'>
@@ -11,7 +11,7 @@ const Banner = () => {
       src={banner}
       className=" w-96 rounded-lg mx-auto shadow-2xl" />
    </div>
-    <div className='w-1/2 mx-auto'>
+  <div className='w-1/2 border mx-auto'>
       <p className='flex flex-col justify-center items-center h-[198px] w-[367px] mx-auto text-white font-vazirmatin text-4xl font-semibold'> <span>Achive Your</span>
        <span className='bg-gradient-to-r from-[#D20C13] to-[#CC4E17] bg-clip-text text-transparent text-5xl font-semibold'>Fitness Goals</span>
        <span> With FitMaker</span></p>
@@ -21,6 +21,7 @@ const Banner = () => {
      <button className="btn w-[250px] h-[44px] rounded-xl btn-outline mx-6 outline-[#CD4E17] hover:border-[#CD4E17] hover:text-[#CD4E17] text-[#CD4E17]"> Exploar Programs </button>
      </div>
     </div>
+
     
   </div>
 </div>
