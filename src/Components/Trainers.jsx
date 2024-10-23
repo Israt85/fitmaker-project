@@ -43,7 +43,7 @@ const Trainers = () => {
        </div>
         <HeadingTitle subtitle={'At This Part you can See Few Of The Many Positive reviews Of Our Customers.'}></HeadingTitle>
 
-        <div className='flex lg:flex-row flex-col flex-wrap justify-center items-center gap-10'>
+        <div className='grid lg:grid-cols-4 grid-cols-3 justify-center items-center gap-10'>
             {/* trainer 1 */}
             <div className='flex shadow-lg shadow-[#D90A1429] flex-col justify-center items-center'>
                 <img className='w-60 rounded-lg h-64' src={trainer1} alt="" />

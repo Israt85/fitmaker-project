@@ -8,6 +8,7 @@ import Plans from "../../Components/Plans";
 import Services from "../../Components/Services";
 import Tools from "../../Components/Tools";
 import Trainers from "../../Components/Trainers";
+import Footer from "../../Shared/Footer/Footer";
 import Navbar from "../../Shared/Navbar/Navbar";
 
 const Home = () => {
@@ -24,6 +25,7 @@ const Home = () => {
            <Blogs></Blogs>
            <Community></Community>
            <Faq></Faq>
+           <Footer></Footer>
         </div>
     );
 };

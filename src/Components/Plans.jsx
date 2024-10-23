@@ -3,7 +3,7 @@ import HeadingTitle from '../Shared/Navbar/HeadingTitle/HeadingTitle';
 
 const Plans = () => {
     return (
-        <div className='max-w-7xl mx-auto py-10 bg-gradient-to-r from-transparent via-[#D90A141F] to-transparent min-h-screen'>
+        <div className='max-w-7xl mx-auto py-10 bg-gradient-to-r from-transparent via-[#D90A141F] to-transparent h-auto'>
             <HeadingTitle title1={'Our'} title2={'Plans'} subtitle={'Select the plan that suits your fitness goals and let our expert coaches guide you every step of the way.'}></HeadingTitle>
             <div className='flex w-full justify-center items-center my-6'>
                 <div className='w-36  flex justify-center items-center h-10 bg-[#D90A14] rounded-full'>
@@ -15,7 +15,7 @@ const Plans = () => {
 
             </div>
             {/* plans */}
-            <div className='flex lg:flex-row flex-wrap gap-6'>
+            <div className='flex lg:flex-row flex-col flex-wrap gap-6'>
                 {/* first plan */}
                 <div className='w-96 mx-auto rounded-lg h-[570px] border-2 border-[#CD4E17]'>
                     <p className='text-base font-vazirmatin text-[#CD4E17] text-center my-6'>Packages</p>

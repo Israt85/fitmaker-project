@@ -43,12 +43,12 @@ const Tools = () => {
            </div>
            </div>
             <HeadingTitle subtitle={'Access a variety of tools to help you reach your fitness goals more effectively'}></HeadingTitle>
-            <div className='flex lg:flex-row flex-col flex-wrap mx-auto justify-center my-10'>
+            <div className='grid grid-cols-3 lg:grid-cols-5 mx-auto justify-center my-10'>
                    <img className='w-60 rounded-lg h-52 mx-auto' src={img1} alt="" />
                    <img className='w-60 rounded-lg h-52 mx-auto' src={img2} alt="" />
                    <img className='w-60 rounded-lg h-52 mx-auto' src={img3} alt="" />
-                   <img className='w-60 rounded-lg h-52 mx-auto' src={img4} alt="" />
-                   <img className='w-60 rounded-lg h-52 mx-auto' src={img5} alt="" />
+                   <img className='w-60 lg:block hidden rounded-lg h-52 mx-auto' src={img4} alt="" />
+                   <img className='w-60 lg:block hidden rounded-lg h-52 mx-auto' src={img5} alt="" />
 
             </div>
         </div>

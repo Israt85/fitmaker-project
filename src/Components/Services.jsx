@@ -9,7 +9,7 @@ const Services = () => {
     return (
         <div className='max-w-7xl py-10 bg-gradient-to-r from-transparent via-[#D90A141F] to-transparent mx-auto h-auto'>
             <HeadingTitle title1={'Our'} title2={'Services'} subtitle={'At This Part You Can Easily access all of our servises. take a look at them and chose wich ever you want.'}></HeadingTitle>
-         <div className='w-full flex justify-center my-6 gap-4 h-auto'>
+         <div className='w-full flex lg:flex-row flex-col justify-center my-6 gap-4 h-auto'>
            
             
                 <img className='w-[280px] mx-auto h-[285px]' src={service1} alt="" />
