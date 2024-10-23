@@ -2,7 +2,7 @@ import React from 'react';
 
 const Faq = () => {
     return (
-        <div className='max-w-7xl py-10 bg-gradient-to-r from-transparent via-[#D90A141F] to-transparent mx-4 h-auto'>
+        <div className='max-w-6xl py-10 bg-gradient-to-r from-transparent via-[#D90A141F] to-transparent mx-auto h-auto'>
             <h1 className='text-white text-center text-4xl my-2'>FAQ</h1>
             <div className="join join-vertical w-full mx-auto">
   <div className="collapse collapse-arrow join-item border-[#D90A14] border">

@@ -8,7 +8,7 @@ import img5 from '../assets/Images/tool5.png'
 
 const Tools = () => {
     return (
-        <div  className='max-w-7xl py-10 bg-gradient-to-r from-transparent via-[#D90A141F] to-transparent mx-auto h-auto'>
+        <div  className='max-w-7xl py-10 my-10 bg-gradient-to-r from-transparent via-[#D90A141F] to-transparent mx-auto h-auto'>
            <div className='flex justify-between mx-2'>
            <p className='text-white font-semibold text-4xl font-vazirmatin text-left mx-2'>Our Fitness <span className='text-red-500'>Tools</span></p>
            <div>

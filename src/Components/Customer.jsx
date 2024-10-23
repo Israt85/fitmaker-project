@@ -8,12 +8,12 @@ const Customer = () => {
     return (
         <div className='max-w-7xl bg-[#1D1D1D] py-10 bg-gradient-to-r from-transparent via-[#D90A141F] to-transparent mx-auto h-auto'>
             <HeadingTitle title1={'What Our'} title2={'Customer Say'} subtitle={'At This Part you can See Few Of The Many Positive reviews Of Our Customers.'}></HeadingTitle>
-            <div className="flex lg:flex-row justify-center items-end gap-6">
+            <div className="flex w-[1200px] lg:flex-row justify-center items-end gap-6">
                 <div>
-                     <img className="w-72  h-80 mx-auto md:h-80" src={img1} alt="" />
+                     <img className="w-72  h-80 mx-auto lg:h-80" src={img1} alt="" />
                 </div>
               <div className="flex justify-center items-end gap-2">
-              <div className="lg:w-[622px] w-60 justify-end bg-[#5B0408] shadow-[#D90A1429] shadow-lg rounded-lg h-[350px] md:h-[200px]">
+              <div className="lg:w-[622px] md:w-96 justify-end bg-[#5B0408] shadow-[#D90A1429] shadow-lg rounded-lg h-[350px] md:h-[200px]">
                 <div className="flex justify-between py-3 px-4">
                     <div>
                           <h1 className="md:text-xl text-lg text-white">Steven Haward</h1>

@@ -6,7 +6,7 @@ const Countdown = () => {
         <div className="stats bg-transparent mx-auto flex justify-center items-center space-x-10">
           
           {/* First Stat */}
-          <div className="stat w-[250px] h-auto place-items-center text-center">
+          <div className="stat lg:w-[250px] mx-auto h-auto place-items-center text-center">
             <div className="stat-value p-2 text-[#D90A14]">96% 
               <span className='text-lg text-white'> Client Satisfaction</span>
             </div>

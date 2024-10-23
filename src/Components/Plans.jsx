@@ -15,9 +15,9 @@ const Plans = () => {
 
             </div>
             {/* plans */}
-            <div className='flex lg:flex-row flex-col flex-wrap gap-6'>
+            <div className='flex md:flex-row flex-col  gap-6'>
                 {/* first plan */}
-                <div className='w-96 mx-auto rounded-lg h-[570px] border-2 border-[#CD4E17]'>
+                <div className='w-96 mx-auto rounded-lg h-[650px] lg:h-[570px] border-2 border-[#CD4E17]'>
                     <p className='text-base font-vazirmatin text-[#CD4E17] text-center my-6'>Packages</p>
                     <p className='text-center text-3xl font-bold text-white'>PRO PLAN</p>
                     <p className='text-base font-vazirmatin text-[#CD4E17] text-center my-3'>Description</p>
