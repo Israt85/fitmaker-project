@@ -232,10 +232,14 @@ const Blogs = () => {
                       </div>
                 </div>
                 </div>
-                <div>
-
-                </div>
+               
             </div>
+            <div className='w-full  my-4 flex justify-center items-center'>
+            <button className='btn-outline btn border-[#CD4E17] hover:border-[#CD4E17] hover:bg-transparent text-[#CD4E17] hover:text-[#CD4E17]'>View All <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.6 15.2L4.48 14L10.4 7.99995L4.48 1.99995L5.6 0.799951L12.8 7.99995L5.6 15.2Z" fill="#CD4E17"/>
+</svg>
+</button>
+        </div>
         </div>
     );
 };

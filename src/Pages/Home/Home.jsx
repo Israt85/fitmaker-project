@@ -1,7 +1,9 @@
 import Banner from "../../Components/Banner";
 import Blogs from "../../Components/Blogs";
+import Community from "../../Components/Community";
 import Countdown from "../../Components/Countdown";
 import Customer from "../../Components/Customer";
+import Faq from "../../Components/Faq";
 import Plans from "../../Components/Plans";
 import Services from "../../Components/Services";
 import Tools from "../../Components/Tools";
@@ -20,6 +22,8 @@ const Home = () => {
            <Customer></Customer>
            <Trainers></Trainers>
            <Blogs></Blogs>
+           <Community></Community>
+           <Faq></Faq>
         </div>
     );
 };
