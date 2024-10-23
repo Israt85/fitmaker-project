@@ -3,7 +3,7 @@ import banner from '../assets/Images/bannerImg.png'
 
 const Banner = () => {
     return (
-        <div className="hero  max-w-6xl mx-auto h-[662px]">
+        <div className="hero bg-[#1D1D1D] max-7xl mx-auto h-auto lg:h-[662px]">
   <div className="hero-content flex-col mx-auto justify-center items-center lg:flex-row-reverse">
    
    <div className=' border'>
